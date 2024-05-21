@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- METADATAS -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Kauan Gabriel & Kaique">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- JS -->
+    <script src="script.js"></script>
+    <!-- TITLE -->
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1> KK Machine</h1>
+
+        <div class="divInput">
+
+            <p>Insira um valor e sua Base</p>
+
+            <div class="input-select">
+
+                <input type="text" placeholder="Ex.: 10" id="inp_numero">
+                <select id="s_base">
+                    <option value="2">2</option>
+                    <option value="8">8</option>
+                    <option value="10" selected>10</option>
+                    <option value="16">16</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div id="resultado">
+
+            <p id="p1">O seu número na base Binario é </p>
+            <input type="text" placeholder="resultado em tempo real..." id="r1" readonly>
+
+            <p id="p2">O seu número na base Octal é </p>
+            <input type="text" placeholder="resultado em tempo real..." id="r2" readonly>
+
+            <p id="p3">O seu número na base Hexadecimal é </p>
+            <input type="text" placeholder="resultado em tempo real..." id="r3" readonly>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
